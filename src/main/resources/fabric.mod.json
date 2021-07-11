@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "harderzombies",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Harder Zombies",
+  "description": "Makes zombies (just a little) harder by allowing them to break iron doors in hard mode.",
   "authors": [
-    "Me!"
+    "RubberBoa"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/boafur/HarderZombies",
+    "sources": "https://github.com/boafur/HarderZombies"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/harderzombies/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.rubberboa.harderzombies.HarderZombies"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "harderzombies.mixins.json"
   ],
 
   "depends": {
