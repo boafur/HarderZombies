@@ -4,9 +4,7 @@
   "package": "me.rubberboa.harderzombies.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
-    "HarderZombies"
+    "DoorBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
