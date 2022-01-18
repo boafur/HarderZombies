@@ -1,7 +1,6 @@
 # Harder Zombies
 
-Makes zombies (just a little) harder by allowing them to break iron doors in hard mode.
+Makes zombies (just a little) harder by allowing all zombies to break iron doors in hard mode.
 
-To summon a zombie with the ability to break doors use the following command:
-
-```/summon zombie ~ ~ ~ {CanBreakDoors:1}```
+- All zombies will be able to break doors
+- All zombies will be able to break iron doors as well as wooden doors
